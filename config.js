@@ -83,7 +83,7 @@ const aIMG = [
   ],
   [
     "HC",
-    "http://192.168.0.13:8080/get_capture.bmp",
+    "http://192.168.0.203:8080/get_capture.bmp",
   ],
   ["Children's Hospital", "https://webpubcontent.gray.tv/wowt/cameras/childrens.jpg"],
   [
