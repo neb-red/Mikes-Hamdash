@@ -1,4 +1,4 @@
-const topBarCenterText = `WX2ACE - EN11`;
+const topBarCenterText = `WX2ACE - WINTER WEATHER`;
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
@@ -55,46 +55,43 @@ const aURL = [
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
 const aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
+  ["CURRENT", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
   [
     "LOCAL RADAR",
     "https://radar.weather.gov/ridge/standard/KOAX_loop.gif",
   ],
   [
-    "NOAA D-RAP",
-    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
+    "WATCHES/WARNINGS",
+    "http://www.weather.gov/wwamap/png/oax.png",
   ],
   [
-    "ISS & RS-44 POSITION",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=600&height=300&mode=M&satid=44909",
-  ],
-  [
-    "SATELLITE CAN",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
+    "10 DAY",
+    "https://webpubcontent.gray.tv/wowt/w24.jpg",
   ],
   [
     "LOCAL SATELLITE",
     "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/umv/GEOCOLOR/GOES16-UMV-GEOCOLOR-600x600.gif",
   ],
   [
-    "LIGHTNING",
-    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
+    "24HR PRECIP",
+    "https://www.weather.gov/images/gid/Precipitation/Nebraska_1day_observation.jpg",
   ],
   [
-    "HC",
-    "http://192.168.0.203:8080/get_capture.bmp",
+    "ICE FORECAST",
+    "https://www.weather.gov/images/oax/winter/StormTotalIceWeb_NE.jpg",
+  ],
+  [
+    "SNOW FORECAST",
+    "https://www.weather.gov/images/oax/ProbMessaging/StormTotalSnow_NE.png",
   ],
   ["Children's Hospital", "https://webpubcontent.gray.tv/wowt/cameras/childrens.jpg"],
   [
     "144th and Dodge",
     "https://webpubcontent.gray.tv/wowt/cameras/ubt.jpg",
   ],
-  ["10 DAY", "https://webpubcontent.gray.tv/wowt/w24.jpg"],
-  ["HF PROPAGATION",
-  "https://www.hamqsl.com/solar101vhf.php",
-  "https://www.hamqsl.com/solar100sc.php",
-  "https://www.hamqsl.com/solarpich.php"],
+  ["680 & IRVINGTON", "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/dynamic/ketv/FairfieldInn.jpg?crop=1xw:1xh;center,top&resize=900:*"],
+  ["114 & DODGE",
+  "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/dynamic/ketv/CharlesSchwab.jpg?crop=1xw:1xh;center,top&resize=900:*"],
 ];
 
 // Image rotation intervals in milliseconds per tile - If the line below is commented, all tiles will be rotated every 30000 milliseconds (30s)
